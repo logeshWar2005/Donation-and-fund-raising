@@ -1,0 +1,45 @@
+.wrapper{
+  background-image: url("C:\Users\Loki\Desktop\reactapp\myfiles\src\assests\bg.jpg");
+  background-size:cover ;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6FA;
+  }
+  
+  .wrapper-util {
+    border: 1px solid black;
+    padding: 30px 20px;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+  }
+  
+  .wrapper form div {
+    margin: 15px;
+    padding: 10px 0px;
+  }
+  
+  input {
+    width: 90%;
+    height: 25px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: auto;
+  }
+  p,label{
+    font-weight: bold;
+  }
+  span{
+    color: darkblue;
+  }
