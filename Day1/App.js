@@ -11,10 +11,13 @@ function App() {
     <div>
           {showLogin ? (
             <SignIn toggleForm={toggleForm} />
+            
           ) : (
             <SignUp toggleForm={toggleForm} />
           )}
-    </div>
+    
+    
+          </div>
   );
 }
 
